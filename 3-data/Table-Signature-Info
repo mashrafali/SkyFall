@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<p> <a moz-do-not-send="true" href="http://cirrus.noor.net/"> <img
+              alt="Mohamed Ashraf"
+              src="http://qfonts.net/wp-content/plugins/font-viewer/font-to-image.php?font_url=preview/skyfall_done/SkyFall%20Done.ttf&font_color=000&bg_color=fff&font_text=SkyFall&tmb=y" border="0"
+              height="146" width="657"> </a> </p>
+
+<style>
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th    {
+    background-color: #00BFFF;
+    color: white;
+}
+</style>
+</head>
+<body>
+<table id="t01">
+  <tr>
+    <th>Server IP</th>
+    <th>Hostname</th>
+    <th>Distribution Information</th>
+    <th>Kernel Version</th>
+  </tr>

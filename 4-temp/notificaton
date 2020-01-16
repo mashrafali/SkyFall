@@ -1,0 +1,266 @@
+From: SkyFall@noor.net
+To: logs-infra@noor.net
+CC: mashraf@noor.net
+MIME-Version: 1.0
+Content-Type: text/html
+Subject: [SkyFall] Skyfall Cluster Disk Information
+
+<!DOCTYPE html>
+<html>
+<head>
+<p> <a moz-do-not-send="true" href="http://cirrus.noor.net/"> <img
+              alt="Mohamed Ashraf"
+              src="http://qfonts.net/wp-content/plugins/font-viewer/font-to-image.php?font_url=preview/skyfall_done/SkyFall%20Done.ttf&font_color=000&bg_color=fff&font_text=SkyFall&tmb=y" border="0"
+              height="146" width="657"> </a> </p>
+
+<style>
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th    {
+    background-color: #00BFFF;
+    color: white;
+}
+</style>
+</head>
+<body>
+<table id="t01">
+  <tr>
+    <th>Server IP</th>
+    <th>Hostname</th>
+    <th>Used Disk Space</th>
+    <th>Available Disk Space</th>
+  </tr>
+  <tr>
+    <td>192.168.38.60</td>
+    <td>SkyFall</td>
+    <td>1.8G</td>
+    <td>27G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.114</td>
+    <td>Apt-Cacher</td>
+    <td>54G</td>
+    <td>18G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.72</td>
+    <td>Tacacs-CityStars</td>
+    <td>1.8G</td>
+    <td>4.5G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.83</td>
+    <td>apache-dev</td>
+    <td>2.9G</td>
+    <td>90G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.80</td>
+    <td>backup</td>
+    <td>5.3G</td>
+    <td>38G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.4</td>
+    <td>ns1</td>
+    <td>2.7G</td>
+    <td>183G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.5</td>
+    <td>ns2</td>
+    <td>2.1G</td>
+    <td>91G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.14</td>
+    <td>filter</td>
+    <td>6.9G</td>
+    <td>2.1G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.54</td>
+    <td>wiki-backup</td>
+    <td>4.2G</td>
+    <td>41G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.73</td>
+    <td>NOOR-Tube</td>
+    <td>3.5G</td>
+    <td>68G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.53</td>
+    <td>wiki</td>
+    <td>5.7G</td>
+    <td>51G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.82</td>
+    <td>centipede</td>
+    <td>5.1G</td>
+    <td>53G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.6</td>
+    <td>DHCPzero.noor.net</td>
+    <td>1.6G</td>
+    <td>5.9G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.145</td>
+    <td>Zenoss</td>
+    <td>19G</td>
+    <td>40G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.111</td>
+    <td>Kerberos-Slave</td>
+    <td>9.7G</td>
+    <td>12G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.63</td>
+    <td>logs.noor.net</td>
+    <td>127G</td>
+    <td>57G</td>
+  </tr>
+  <tr>
+    <td>192.168.0.8</td>
+    <td>smtp.noor.net</td>
+    <td>200G</td>
+    <td>206G</td>
+  </tr>
+  <tr>
+    <td>217.139.225.250</td>
+    <td>dns0</td>
+    <td>3.4G</td>
+    <td>41G</td>
+  </tr>
+  <tr>
+    <td>217.139.0.38</td>
+    <td>dns1</td>
+    <td>5.3G</td>
+    <td>38G</td>
+  </tr>
+  <tr>
+    <td>172.17.13.10</td>
+    <td>dnsmaster</td>
+    <td>4.5G</td>
+    <td>39G</td>
+  </tr>
+  <tr>
+    <td>172.17.13.11</td>
+    <td>dnsmirror</td>
+    <td>9.0G</td>
+    <td>34G</td>
+  </tr>
+  <tr>
+    <td>172.17.14.18</td>
+    <td>radius-be</td>
+    <td>20G</td>
+    <td>38G</td>
+  </tr>
+  <tr>
+    <td>172.17.14.14</td>
+    <td>WanGuard-Console</td>
+    <td>106G</td>
+    <td>842G</td>
+  </tr>
+  <tr>
+    <td>41.187.101.84</td>
+    <td>rpoxy</td>
+    <td>2.2G</td>
+    <td>88G</td>
+  </tr>
+  <tr>
+    <td>41.187.100.20</td>
+    <td>filter</td>
+    <td>4.7G</td>
+    <td>14G</td>
+  </tr>
+  <tr>
+    <td>172.17.14.50</td>
+    <td>Zenoss-Corp</td>
+    <td>25G</td>
+    <td>14G</td>
+  </tr>
+  <tr>
+    <td>10.9.9.222</td>
+    <td>Kerberos-Master</td>
+    <td>8.6G</td>
+    <td>13G</td>
+  </tr>
+  <tr>
+    <td>172.17.13.57</td>
+    <td>WebServer</td>
+    <td>2.0G</td>
+    <td>24G</td>
+  </tr>
+  <tr>
+    <td>41.187.101.86</td>
+    <td>GPG</td>
+    <td>2.1G</td>
+    <td>12G</td>
+  </tr>
+  <tr>
+    <td>172.17.13.37</td>
+    <td>Tacacs-Ramsis</td>
+    <td>1.7G</td>
+    <td>4.5G</td>
+  </tr>
+  <tr>
+    <td>172.17.13.7</td>
+    <td>cacti-backup</td>
+    <td>5.8G</td>
+    <td>40G</td>
+  </tr>
+  <tr>
+    <td>217.139.0.68</td>
+    <td>cacti</td>
+    <td>13G</td>
+    <td>33G</td>
+  </tr>
+  <tr>
+    <td>172.17.14.28</td>
+    <td>ntp</td>
+    <td>1.9G</td>
+    <td>13G</td>
+  </tr>
+  <tr>
+    <td>41.187.101.92</td>
+    <td>mail</td>
+    <td>9.9G</td>
+    <td>34G</td>
+  </tr>
+  <tr>
+    <td>41.187.101.68</td>
+    <td>tools</td>
+    <td>6.4G</td>
+    <td>40G</td>
+  </tr>
+  <tr>
+    <td>172.17.13.56</td>
+    <td>backup-dc</td>
+    <td>3.7G</td>
+    <td>3.4G</td>
+  </tr>
+</table>
+</body>
+</html>

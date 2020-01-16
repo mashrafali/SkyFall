@@ -1,0 +1,50 @@
+--------------------------------------------------------------------------------------------------------
+|    Server IP    |       Hostname       |     Distribution Information     |      Kernel Version      |
+--------------------------------------------------------------------------------------------------------
+|   192.168.38.60 |             SkyFall  |           Ubuntu-14.04.3-LTS     |     4.4.1-040401-generic | 
+|   192.168.0.114 |          Apt-Cacher  |           Ubuntu-14.04.3-LTS     |        3.13.0-63-generic | 
+|    192.168.0.72 |    Tacacs-CityStars  |           Ubuntu-12.04.3-LTS     |         3.8.0-29-generic | 
+|    192.168.0.83 |          apache-dev  |           Ubuntu-12.04.4-LTS     |         3.2.0-23-virtual | 
+|    192.168.0.80 |              backup  |           Ubuntu-12.04.5-LTS     |         3.2.0-94-generic | 
+|     192.168.0.4 |                 ns1  |           Ubuntu-14.04.3-LTS     |     4.4.0-040400-generic | 
+|     192.168.0.5 |                 ns2  |           Ubuntu-14.04.3-LTS     |     4.4.0-040400-generic | 
+|    192.168.0.14 |              filter  |         Debian-GNU/Linux-7.8     |            3.2.0-4-amd64 | 
+|    192.168.0.54 |         wiki-backup  |           Ubuntu-14.04.3-LTS     |     3.0.0-32-generic-pae | 
+|    192.168.0.73 |           NOOR-Tube  |             Ubuntu-14.04-LTS     |     4.4.0-040400-generic | 
+|    192.168.0.53 |                wiki  |           Ubuntu-14.04.3-LTS     |     4.4.0-040400-generic | 
+|    192.168.0.82 |           centipede  |           Ubuntu-12.04.5-LTS     |         3.2.0-80-generic | 
+|     192.168.0.6 |   DHCPzero.noor.net  |           Ubuntu-14.04.3-LTS     |        3.13.0-32-generic | 
+|   192.168.0.145 |              Zenoss  |           Ubuntu-12.04.5-LTS     |         3.2.0-98-generic | 
+|   192.168.0.111 |      Kerberos-Slave  |         Debian-GNU/Linux-7.8     |            3.2.0-4-amd64 | 
+|    192.168.0.63 |       logs.noor.net  |           Ubuntu-12.04.5-LTS     |         3.2.0-90-generic | 
+|     192.168.0.8 |       smtp.noor.net  |           Ubuntu-12.04.4-LTS     |         3.2.0-63-virtual | 
+|   192.168.0.130 |   Cirrus-Controller  |           Ubuntu-14.04.3-LTS     |        3.19.0-30-generic | 
+|   192.168.0.131 |          Cirrus-SDN  |           Ubuntu-14.04.3-LTS     |        3.16.0-50-generic | 
+|   192.168.0.124 |     Cirrus-Compute1  |           Ubuntu-14.04.3-LTS     |        3.16.0-50-generic | 
+|   192.168.0.125 |     Cirrus-Compute2  |           Ubuntu-14.04.3-LTS     |        3.16.0-50-generic | 
+|   192.168.0.126 |     Cirrus-Compute3  |           Ubuntu-14.04.3-LTS     |        3.16.0-50-generic | 
+|   192.168.38.65 |        Cirrus-Drive  |           Ubuntu-14.04.3-LTS     |        3.13.0-71-generic | 
+|   192.168.0.190 |  sms-clone.noor.net  |           Ubuntu-12.04.5-LTS     |         3.8.0-44-generic | 
+|    192.168.0.57 |          NOC-Beeper  |           Ubuntu-12.04.5-LTS     |        3.11.0-26-generic | 
+|    217.139.0.68 |               cacti  |                Ubuntu-11.10-     |          3.0.0-12-server | 
+| 217.139.225.250 |                dns0  |           Ubuntu-14.04.3-LTS     |     4.4.0-040400-generic | 
+|    217.139.0.38 |                dns1  |           Ubuntu-14.04.3-LTS     |        3.13.0-62-generic | 
+|    172.17.13.10 |           dnsmaster  |           Ubuntu-14.04.3-LTS     |        3.13.0-61-generic | 
+|    172.17.13.11 |           dnsmirror  |           Ubuntu-14.04.3-LTS     |        3.13.0-49-generic | 
+|    172.17.14.18 |           radius-be  |       Debian-GNU/Linux-6.0.5     |           2.6.32-5-amd64 | 
+|    172.17.14.14 |    WanGuard-Console  |         Debian-GNU/Linux-8.0     |           3.16.0-4-amd64 | 
+|   172.17.50.122 |     WanGuard-Filter  |         Debian-GNU/Linux-8.0     |           3.16.0-4-amd64 | 
+|   172.17.50.118 |     WanGuard-Sensor  |         Debian-GNU/Linux-8.0     |           3.16.0-4-amd64 | 
+|    172.17.14.50 |         Zenoss-Corp  |           Ubuntu-14.04.3-LTS     |     4.4.0-040400-generic | 
+|    172.17.13.57 |           WebServer  |           Ubuntu-12.04.3-LTS     |         3.5.0-23-generic | 
+|    172.17.13.37 |       Tacacs-Ramsis  |           Ubuntu-12.04.3-LTS     |         3.8.0-29-generic | 
+|     172.17.13.7 |        cacti-backup  |           Ubuntu-12.04.3-LTS     |         3.2.0-23-generic | 
+|    172.17.14.28 |                 ntp  |           Ubuntu-12.04.3-LTS     |         3.2.0-23-generic | 
+|    172.17.13.56 |           backup-dc  |           Ubuntu-12.04.5-LTS     |         3.2.0-69-generic | 
+|   41.187.101.92 |                mail  |           Ubuntu-12.04.5-LTS     |         3.2.0-23-generic | 
+|   41.187.101.68 |               tools  |           Ubuntu-12.04.5-LTS     |        3.13.0-32-generic | 
+|   41.187.101.84 |               rpoxy  |           Ubuntu-14.04.1-LTS     |        3.13.0-45-generic | 
+|   41.187.100.20 |              filter  |         Debian-GNU/Linux-7.9     |            3.2.0-4-amd64 | 
+|   41.187.101.86 |                 GPG  |           Ubuntu-14.04.3-LTS     |        3.13.0-76-generic | 
+|      10.9.9.222 |     Kerberos-Master  |         Debian-GNU/Linux-7.8     |            3.2.0-4-amd64 | 
+--------------------------------------------------------------------------------------------------------

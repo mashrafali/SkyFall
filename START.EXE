@@ -1,0 +1,105 @@
+#!/bin/bash
+# ex30a.sh: "Colorized" version of ex30.sh.
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+clear
+cat 3-data/logo.asci
+sleep 3
+
+
+while true
+do
+
+sleep 1
+clear
+echo -n 'Version 1.1 Release 8/2/2016';echo -n '                ';echo -en '\E[35;36m'"\033[3mSkyFall Linux Cortex" ;echo -n '                ';echo -e '\E[39;36m'"\033[1m$(date)\033[0m"
+echo -e 'Developed by Mohamed Ashraf'
+echo
+echo
+echo -e '\E[20;31m'"\033[1m                          From now on...\033[0m"
+echo -e '\E[30;32m'"\033[1m                 -------------------------------------------------------------------------------\033[0m"
+echo -n '                                                 ';echo -en '\E[20;34m'"\033[1mWELCOME TO SkyFall"
+echo
+echo -e '\E[30;32m'"\033[1m                 -------------------------------------------------------------------------------\033[0m"
+echo -n '                                                                            ';echo -e '\E[20;31m'"\033[1m...Save Valuable Time!\033[0m"
+echo
+echo
+sleep 0.2
+echo -n '                               ';echo -e '\E[20;34m'"\033[1m-> SkyFall Integrated features:\033[0m"
+echo -e '\E[20;31m'"\033[1m                               -------------------------------\033[0m"
+echo -e '\E[20;35m'"\033[1m                               (1) List Configuered Inventory.\033[0m"
+echo -e '\E[20;35m'"\033[1m                               (2) Fetch Cluster Information."
+echo -e '\E[20;35m'"\033[1m                               (3) Fetch Cluster Disk Status."
+echo -e '\E[20;35m'"\033[1m                               (4) Check Cluster SSH Registration."
+echo -e '\E[20;35m'"\033[1m                               (5) Issue a Global Command."
+echo ' '
+echo -e '\E[20;35m'"\033[1m                               (6) Exits the Tool.\033[0m"
+echo
+echo
+echo
+echo -n '                               ';echo -en '\E[20;31m'"\033[1m-> To Enter Testing Mode Type (\033[0m";echo -en '\E[39;36m'"\033[1mtest\033[0m";echo -e '\E[20;31m'"\033[1m).\033[0m"
+echo
+echo
+read -e -p '                           Your Choice:  ' pointer
+case $pointer in
+     1) ( clear
+          sleep 1
+          echo
+          echo "-> Configuered Servers:"
+          echo
+          cat 2-servers/server-list
+          echo; echo -en "Hit Enter to Continue..."
+          read
+        )
+       ;;
+
+     2) ( clear
+          sleep 1
+          ./1-bin/Information-Fetcher.sh
+        )
+       ;;
+
+     3) ( clear
+          sleep 1
+          ./1-bin/Disk-Fetcher.sh
+        )
+       ;;
+
+     4) ( clear
+          sleep 1
+          ./1-bin/Check-ssh-registry.sh
+        )
+       ;;
+
+     5) ( clear
+          sleep 1
+          ./1-bin/Global-Command.sh
+        )
+       ;;
+
+     6) ( echo;echo
+          read -p '                           Are You Sure You Want To exit the system? [y/n]  ' choice
+          case $choice in
+              y) (clear
+                  kill $$
+                 )
+                ;;
+                 esac
+        )
+       ;;
+  test) (echo
+         echo "Under Construction :)"
+         sleep 2
+         )
+        ;;
+
+     *) (echo
+         echo
+         echo -n '                                                      ';echo -e '\E[20;33m'"\033[1mSorry but that is not a valid input!\033[0m"
+         sleep 1
+         echo
+         echo -n '                                                        >>>>>>>> ';echo -en '\E[40;41m'"\033[1mRESETTING MENU\033[0m";echo ' <<<<<<<<'
+         sleep 1)
+        ;;
+ esac
+done
